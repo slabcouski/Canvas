@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/bootstrap/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/img/cropped-favicon-senac-32x32.png" sizes="32x32">
+    <link rel="icon" href="./assets/img/cropped-favicon-senac-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="./assets/img/cropped-favicon-senac-180x180.png">
+    <meta name="msapplication-TileImage" content="./assets/img/cropped-favicon-senac-270x270.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Projeto de Aprendizagem Prática de criação e desenvolvimento de um Simulador ERP</title>
+</head>
+
+<body class="home">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top home">
+            <div class="container">
+                <a class="navbar-brand" href="https://www.pr.senac.br">
+                    <img class="logo" src="./assets/img/logoSenac.png" alt="">
+                </a>
+                <button class="navbar-toggler bg-acordion2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start bg-acordion" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close bg-acordion2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Objetivo">Objetivo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#StakeholdersEquipe">Stakeholders e Equipe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Cronograma">Cronograma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#PremissasRiscos">Premissas e Riscos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Entregas">Entregas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#RestriçõesCustos">Restrições e Custos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Beneficios">Benefícios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Impacto">Impacto</a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 p-3 pt-lg-5">
+                    <div class="col">
+                        <div class="row row-cols-1">
+                            <div class="col">
+                                <h1 class="bg-h1 mt-5 display-1 fw-bold">Projeto de Aprendizagem Prática de criação e
+                                    desenvolvimento de um Simulador ERP</h1>
+                            </div>
+                            <div class="col">
+                                <p class="text-p">Desenvolvendo um simulador de Sistema de Gestão Empresarial Integrado
+                                    (ERP) para melhorar a aprendizagem prática dos alunos do Ensino Médio e de Gestão do
+                                    Senac Paraná.</p>
+                            </div>
+                            <div class="col">
+                                <div class="row row-cols-1 row-cols-lg-2">
+                                    <div class="col col-lg-3">
+                                        <button type="button"
+                                            class="btn btn-botao fw-bold w-100">
+                                            <a class="text-white link-underline link-underline-opacity-0" href="#Equipes">Equipes</a>
+                                        </button>
+                                    </div>
+                                    <div class="col col-lg-3 mt-3 mt-lg-0">
+                                        <button type="button"
+                                            class="btn btn-fotos btn-dark fw-bold w-100">
+                                            <a class="btn-fotos border-0 link-underline link-underline-opacity-0" href="#Fotos">Fotos</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 mt-3">
+                        <img class="w-100 rounded-3" src="./assets/img/L9xg3v_WL9ybRyUpYxLdk.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Objetivo">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 p-3">
+                    <div class="col col-lg-5 d-flex align-items-center">
+                        <img class="w-100 rounded-3" src="./assets/img/IjNU-lCNh1CWhEWiu8Hit.avif" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1">
+                            <div class="col">
+                                <h2 class="bg-h1 mt-5 display-5 fw-bold">Objetivos do Projeto</h2>
+                            </div>
+                            <div class="col ms-4">
+                                <div class="row">
+                                    <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
+                                        <ul class="timeline-with-icons">
+                                            <li class="timeline-item">
+                                                <div class="w-25 h-25 bg-transparent">.</div>
+                                            </li>
+                                            <li class="timeline-item mb-5">
+                                                <span class="timeline-icon">
+                                                    <h5 class="timeline-text text-white fw-bold m-1">1</h5>
+                                                </span>
+                                                <h5 class="fw-bold text-white timeline-text ms-5">Desenvolvimento
+                                                    Teórico</h5>
+                                                <p class="text-white ms-5 sub-li">
+                                                    Criar fundamentação teórica sobre ERP para os alunos.
+                                                </p>
+                                            </li>
+                                            <li class="timeline-item mb-5">
+                                                <span class="timeline-icon">
+                                                    <h5 class="timeline-text text-white fw-bold m-1">2</h5>
+                                                </span>
+                                                <h5 class="fw-bold text-white timeline-text ms-5">Análise de
+                                                    Necessidades</h5>
+                                                <p class="text-white ms-5 sub-li">
+                                                    Mensurar as necessidades dos alunos de gestão para o desenvolvimento
+                                                    do projeto.
+                                                </p>
+                                            </li>
+                                            <li class="timeline-item mb-5">
+                                                <span class="timeline-icon">
+                                                    <h5 class="timeline-text text-white fw-bold m-1">3</h5>
+                                                </span>
+                                                <h5 class="fw-bold text-white timeline-text ms-5">Aprendizagem Prática
+                                                </h5>
+                                                <p class="text-white ms-5 sub-li">
+                                                    Evidenciar o conhecimento no desenvolvimento do sistema através de
+                                                    Brainstorm, Briefing, Wireframe e Prototipação.
+                                                </p>
+                                            </li>
+                                            <li class="timeline-item mb-5">
+                                                <span class="timeline-icon">
+                                                    <h5 class="timeline-text text-white fw-bold m-1">4</h5>
+                                                </span>
+                                                <h5 class="fw-bold text-white timeline-text ms-5">Desenvolvimento
+                                                    Técnico</h5>
+                                                <p class="text-white ms-5 sub-li">
+                                                    Aprendizagem de linguagens de marcação, estilização, programação Web
+                                                    e Banco de Dados.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="StakeholdersEquipe">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="row">
+                        <h2 class="bg-h1 mt-5 mx-2 ms-lg-0 display-5 fw-bold">Stakeholders e Equipe</h2>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <h4 class="sub-title mt-5 ms-3 ms-lg-1 p-0">Stakeholders</h4>
+                            <ul class="ms-3 ms-lg-0 ps-4">
+                                <li class="text-white sub-li fw-bold">Alunos de gestão</li>
+                                <li class="text-white sub-li fw-bold">Instrutores</li>
+                                <li class="text-white sub-li fw-bold">Gestor Senac Caiobá</li>
+                                <li class="text-white sub-li fw-bold">TEPTs e Equipe Pedagógica</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h4 class="sub-title mt-5 ms-3 ms-lg-2 p-0">Equipe do Projeto</h4>
+                            <ul class="ms-3 ms-lg-1 ps-4">
+                                <li class="text-white sub-li fw-bold">Instrutores de Gestão: Melissa e Antônio</li>
+                                <li class="text-white sub-li fw-bold">Instrutores de T.I: Bruno e Marcelo</li>
+                                <li class="text-white sub-li fw-bold">Alunos do ensino médop do 1° e 2° ano</li>
+                                <li class="text-white sub-li fw-bold">Alunos dos cursos técnicos de administração do
+                                    Senac</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Cronograma" class="cronograma">
+            <div class="container pt-0 pt-lg-5 p-lg-5">
+                <div class="row border-crono rounded-2 pb-lg-0 m-1 m-lg-5">
+                    <div class="row px-0 px-lg-5 timeline-m">
+                        <h2 class="bg-h1 mt-5 mt-lg-5 mx-2 ms-lg-0 display-5 text-center text-lg-start fw-bold">Cronograma do Projeto</h2>
+                    </div>
+                    <div class="row mb-0 mb-lg-5">
+                        <ul class="row timeline-with-icons2 ms-5 mb-5 mb-lg-5 mx-lg-2">
+                            <li class="timeline-item">
+                                <div class="w-25 h-25 bg-transparent">.</div>
+                            </li>
+                            <li class="col timeline-item2">
+                                <span class="timeline-icon2">
+                                    <h5 class="timeline-text2 text-white fw-bold m-1">1</h5>
+                                </span>
+                                <p class="timeline-b text-white text-center">
+                                    Alinhamento de Ideias<br>01/02/2024 - 01/03/2024
+                                </p>
+                            </li>
+                            <li class="col timeline-item2">
+                                <span class="timeline-icon3">
+                                    <h5 class="timeline-text2 text-white fw-bold m-1">2</h5>
+                                </span>
+                                <p class="timeline-t text-white text-center">
+                                    Prototipagem<br>05/03/2024 - 31/07/2024
+                                </p>
+                            </li>
+                            <li class="col timeline-item2">
+                                <span class="timeline-icon2">
+                                    <h5 class="timeline-text2 text-white fw-bold m-1">3</h5>
+                                </span>
+                                <p class="timeline-b text-white text-center">
+                                    Frontend e Backend<br>29/07/2024 - 30/09/2024
+                                </p>
+                            </li>
+                            <li class="col timeline-item2">
+                                <span class="timeline-icon3">
+                                    <h5 class="timeline-text2 text-white fw-bold m-1">4</h5>
+                                </span>
+                                <p class="timeline-t text-white text-center">
+                                    Entrega do Projeto Integrador<br>04/11/2024
+                                </p>
+                            </li>
+                            <li class="col timeline-item2">
+                                <span class="timeline-icon2">
+                                    <h5 class="timeline-text2 text-white fw-bold m-1">5</h5>
+                                </span>
+                                <p class="timeline-b text-white text-center">
+                                    Apresentação do Projeto Integrador<br>26/11/2024
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="PremissasRiscos">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="row">
+                        <h2 class="bg-h1 mt-5 mx-2 ms-lg-0 display-5 fw-bold">Premissas e Riscos</h2>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <h4 class="sub-title mt-5 ms-3 ms-lg-1 p-0">Premissas</h4>
+                            <ul class="ms-3 ms-lg-0 ps-4">
+                                <li class="text-white sub-li fw-bold">Aceitação positiva por parte dos alunos e instrutores</li>
+                                <li class="text-white sub-li fw-bold">Aprovação e colaboração eficaz da instituição de ensino e dos gestores Senac</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h4 class="sub-title mt-5 ms-3 ms-lg-2 p-0">Riscos</h4>
+                            <ul class="ms-3 ms-lg-1 ps-4">
+                                <li class="text-white sub-li fw-bold">Ausência de engajamento dos alunos à adoção do tema</li>
+                                <li class="text-white sub-li fw-bold">Desafios de conhecimentos técnicos durante o desenvolvimento</li>
+                                <li class="text-white sub-li fw-bold">Problemas de relacionamento entre turmas de séries diferentes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Entregas">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="row mt-5">
+                        <h2 class="bg-h1 mt-5 mx-2 ms-lg-0 display-5 fw-bold">Grupo de Entregas</h2>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <span class="timeline-icon4">
+                                <h5 class="timeline-text2 text-white fw-bold m-1">1</h5>
+                            </span>
+                            <h5 class="fw-bold text-white timeline-text ms-5 px-2">Alinhamento e Prototipação</h5>
+                            <p class="text-white ms-5 sub-li px-2">
+                                Alinhamento das ideias de desenvolvimento do projeto e prototipação da plataforma.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <span class="timeline-icon4">
+                                <h5 class="timeline-text2 text-white fw-bold m-1">2</h5>
+                            </span>
+                            <h5 class="fw-bold text-white timeline-text ms-5 px-2">Desenvolvimento Frontend</h5>
+                            <p class="text-white ms-5 sub-li px-2">
+                                Desenvolvimento de frontend do software para a plataforma.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <span class="timeline-icon4">
+                                <h5 class="timeline-text2 text-white fw-bold m-1">3</h5>
+                            </span>
+                            <h5 class="fw-bold text-white timeline-text ms-5 px-2">Desenvolvimento Backend</h5>
+                            <p class="text-white ms-5 sub-li px-2">
+                                Desenvolvimento de backend e banco de dados para a plataforma.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <span class="timeline-icon4">
+                                <h5 class="timeline-text2 text-white fw-bold m-1">4</h5>
+                            </span>
+                            <h5 class="fw-bold text-white timeline-text ms-5 px-2">Entrega e Feedback</h5>
+                            <p class="text-white ms-5 sub-li px-2">
+                                Entrega de resultado parcial, feedback dos instrutores, entrega do Projeto Integrador e feedback dos alunos de gestão.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="RestriçõesCustos" class="cronograma">
+            <div class="container pt-0 pt-lg-5 p-lg-5">
+                <div class="row border-crono rounded-2 justify-content-center px-1 px-lg-5">
+                    <div class="row px-0 mt-5 mb-5">
+                        <h2 class="bg-h1 display-5 text-center text-lg-start fw-bold">Restrições e Custos</h2>
+                    </div>
+                    <div class="accordion mb-4">
+                        <div class="accordion-item bg-acordion border-crono border-bottom-0">
+                            <div class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <div class="row row-cols-2">
+                                        <div class="col">
+                                            <p class="text-white fs-4">Restrições</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="text-white fs-4">Custos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-crono border-top-0 border-bottom-0">
+                            <div class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <div class="row row-cols-2">
+                                        <div class="col">
+                                            <p class="text-white fs-4">Prazo limitado</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="text-white fs-4">Hora/Aula Instrutores</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-acordion border-crono border-top-0">
+                            <div class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <div class="row row-cols-2">
+                                        <div class="col">
+                                            <p class="text-white fs-4">Normas e regras do Senac</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="text-white fs-4">Custos Administrativos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5 p-0">
+                        <p class="text-white fs-4">Todos os custos para a execução do projeto já estão previstos, incluindo hora/aula dos instrutores, custos administrativos e outros custos relacionados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Beneficios" class="cronograma">
+            <div class="container pt-0 pt-lg-5 p-lg-5">
+                <div class="row border-crono rounded-2 px-1 px-lg-5">
+                    <div class="row px-0 mt-5 mb-5">
+                        <h2 class="bg-h1 display-5 text-center text-lg-start ms-2 fw-bold">Benefícios Futuros</h2>
+                    </div>
+                    <div class="row mb-lg-5">
+                        <div class="col">
+                            <div class="mb-3">
+                                <i class="bi bi-mortarboard icons display-1"></i>
+                            </div>
+                            <h5 class="fw-bold text-white timeline-text fs-4">Aprendizagem Prática</h5>
+                                <p class="text-white sub-li fs-6">
+                                    Ambiente de aprendizagem prática para alunos de T.I. e de Gestão, com possibilidade de melhoria contínua
+                                </p>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <i class="bi bi-briefcase icons display-1"></i>
+                            </div>
+                            <h5 class="fw-bold text-white timeline-text fs-4">Experiência Profissional</h5>
+                                <p class="text-white sub-li fs-6">
+                                    Experiência prática em simulação de ambientes empresariais e desenvolvimento de habilidades profissionais aplicáveis ao mundo do trabalho.
+                                </p>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <i class="bi bi-bar-chart icons display-1"></i>
+                            </div>
+                            <h5 class="fw-bold text-white timeline-text fs-4">Diferencial Competitivo</h5>
+                                <p class="text-white sub-li fs-6">
+                                    Diferencial em relação às metodologias adotadas para o ensino médio em outras instituições de ensino e aumento na possibilidade de empregabilidade dos alunos.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Impacto">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 p-3">
+                    <div class="col">
+                        <div class="row row-cols-1">
+                            <div class="col mb-5">
+                                <h2 class="bg-h1 mt-5 display-5 fw-bold">Impacto Educacional</h2>
+                            </div>
+                            <div class="col pe-lg-5">
+                                <div class="card bg-card border-crono mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white timeline-text fw-bold fs-3">Conhecimento Empírico</h5>
+                                        <p class="card-text text-white sub-li fs-4">Aumento do conhecimento empírico dos alunos através da aplicação prática dos conceitos aprendidos.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-card border-crono mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white timeline-text fw-bold fs-3">Simulação Empresarial</h5>
+                                        <p class="card-text text-white sub-li fs-4">Criação de um ambiente que simula processos reais de gestão empresarial, preparando os alunos para desafios do mundo corporativo.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-card border-crono mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white timeline-text fw-bold fs-3">Integração Interdisciplinar</h5>
+                                        <p class="card-text text-white sub-li fs-4">Promoção da integração entre diferentes áreas de conhecimento, como T.I. e Gestão, refletindo a realidade do mercado de trabalho.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-card border-crono mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white timeline-text fw-bold fs-3">Inovação Pedagógica</h5>
+                                        <p class="card-text text-white sub-li fs-4">Implementação de metodologias ativas de aprendizagem, alinhadas com as tendências mais modernas em educação.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 d-flex align-items-center">
+                        <img class="w-100 mt-5 rounded-3" src="./assets/img/FWlwLf4lYbK33V_Vbw-Ug.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Equipes" class="cronograma">
+            <div class="container pt-0 pt-lg-5 p-lg-5">
+                <div class="row border-crono rounded-2 justify-content-center px-1 px-lg-5">
+                    <div class="row px-0 mt-5 mb-5">
+                        <h2 class="bg-h1 display-5 text-center text-lg-start fw-bold">Equipes do 1º e 2º ano do Ensino Médio</h2>
+                    </div>
+                    <div class="accordion" id="accordionFlush">
+                        <div class="accordion-item bg-acordion border-crono">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-acordion2 text-white sub-li fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Equipe 01
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body">
+                                    <div class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src="./assets/img/IMG_3090.JPEG" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 01 do 1º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-2 pe-lg-0">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-10 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">GABRIEL ROSSI DA SILVA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">MARIANA HANEK VIEIRA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">MATEUS KLOSS</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">SOPHIA TURETTA</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">VITO RONALDO PEREZ GAMARRA</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer p-0">
+                                                            <div class="row row-cols-1 row-cols-lg-2 p-0 m-0">
+                                                                <div class="col-lg-3 border-0 border-end p-0">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">Figma:</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">
+                                                                            <a class="link-underline link-underline-opacity-0" href="https://www.figma.com/design/YlsjfhwffGhCDhCGE9Kwfb/Sistema-ERP?node-id=0-1&node-type=canvas">Projeto 01</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 01 do 2º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-3 pe-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-9 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">CASSIUS KUROVISKI</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">FELIPE PADILHA MARIM</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">MARCELO MACHADO ZELAK</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">VITOR FERST WOSNIAK</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-cols-1 mt-3">
+                                                <div class="col d-flex justify-content-center">
+                                                    <button class="btn btn-botao">
+                                                        <a class="link-underline link-underline-opacity-0 text-white" href="">Sistema ERP</a>
+                                                    </button>
+                                                </div>
+                                                <div class="col d-flex justify-content-center">
+                                                    <p class="fw-bold badge text-wrap text-black">Acesse aqui o sistema criado por eles</p>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-acordion border-crono">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-acordion2 text-white sub-li fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Equipe 02
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src="./assets/img/IMG_3095.JPEG" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 02 do 1º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-2 pe-lg-0">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-10 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">CLAYTON CLEBER DE PAULA JUNIOR</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">DANIELA DE REZENDE CARNELOCCE</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">GIOVANNI AUGUSTO TONIAL</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">JULIA SENTONE WIESKOSKIA</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer p-0">
+                                                            <div class="row row-cols-1 row-cols-lg-2 p-0 m-0">
+                                                                <div class="col-lg-3 border-0 border-end p-0">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">Figma:</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">
+                                                                            <a class="link-underline link-underline-opacity-0" href="https://www.figma.com/design/qQXBIAF2dvYxrhcWtmVs3y/Sistema-ERP">Projeto 02</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 02 do 2º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-3 pe-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-9 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ARMANDO JOSE AZEVEDO LOBO NETO</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">GABRIEL GESSER</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">JOÃO CLEBER VILLALBA DE ABREU</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">VITOR DE SOUZA CARVALHO</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-cols-1 mt-3">
+                                                <div class="col d-flex justify-content-center">
+                                                    <button class="btn btn-botao">
+                                                        <a class="link-underline link-underline-opacity-0 text-white" href="">Sistema ERP</a>
+                                                    </button>
+                                                </div>
+                                                <div class="col d-flex justify-content-center">
+                                                    <p class="fw-bold badge text-wrap text-black">Acesse aqui o sistema criado por eles</p>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-acordion border-crono">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-acordion2 text-white sub-li fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneThree" aria-expanded="false" aria-controls="collapseThree">
+                                Equipe 03
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOneThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src="./assets/img/IMG_3096.JPEG" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 03 do 1º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-2 pe-lg-0">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-10 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ASAF SAUSS DE MELO</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">EMILLY DE CASSIA SANTIAGO BORBA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">KAUAN LUCAS CHAMI</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">MARIA EDUARDA VEDOLIN</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer p-0">
+                                                            <div class="row row-cols-1 row-cols-lg-2 p-0 m-0">
+                                                                <div class="col-lg-3 border-0 border-end p-0">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">Figma:</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">
+                                                                            <a class="link-underline link-underline-opacity-0" href="https://www.figma.com/design/CbYDlkjUz32QZZqBfbFq6i/Untitled">Projeto 03</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 03 do 2º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-3 pe-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-9 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ARTHUR LUIZ OLIVEIRA DA ROSA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">GIOVANNA MARIA DA SILVA MESQUITA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">MARIANNE DIAS GARCIA PARODI</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">MARRY SHAYMA DA COSTA CRUZ</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-cols-1 mt-3">
+                                                <div class="col d-flex justify-content-center">
+                                                    <button class="btn btn-botao">
+                                                        <a class="link-underline link-underline-opacity-0 text-white" href="">Sistema ERP</a>
+                                                    </button>
+                                                </div>
+                                                <div class="col d-flex justify-content-center">
+                                                    <p class="fw-bold badge text-wrap text-black">Acesse aqui o sistema criado por eles</p>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-acordion border-crono">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-acordion2 text-white sub-li fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Equipe 04
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src="./assets/img/IMG_3098.JPEG" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 04 do 1º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-2 pe-lg-0">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-10 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ALEXANDRE DA SILVA KAWAMURA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ANA MARIA KAULE DE OLIVEIRA MORAIS</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">LUIS GUSTAVO NESPOLO SALVADOR</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">MARIANA FIRIGOLO MOLINARIO</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer p-0">
+                                                            <div class="row row-cols-1 row-cols-lg-2 p-0 m-0">
+                                                                <div class="col-lg-3 border-0 border-end p-0">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">Figma:</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">
+                                                                            <a class="link-underline link-underline-opacity-0" href="https://www.figma.com/design/mCMT42Iiyry4ZjCAoLpfiv/Untitled?node-id=0-1&node-type=canvas">Projeto 04</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 04 do 2º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-3 pe-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-9 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">GIOVANA SIMIANO DOS SANTOS</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">HENRIQUE KIRSCH LUNARDON</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">MAX PAOLO TURCO KLOCK</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">RENATO LIMA PAES BAVARESCO</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-cols-1 mt-3">
+                                                <div class="col d-flex justify-content-center">
+                                                    <button class="btn btn-botao">
+                                                        <a class="link-underline link-underline-opacity-0 text-white" href="">Sistema ERP</a>
+                                                    </button>
+                                                </div>
+                                                <div class="col d-flex justify-content-center">
+                                                    <p class="fw-bold badge text-wrap text-black">Acesse aqui o sistema criado por eles</p>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-acordion border-crono">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-acordion2 text-white sub-li fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                Equipe 05
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src="./assets/img/IMG_3104.JPEG" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 05 do 1º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-2 pe-lg-0">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-10 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ALEXANDRE SINDERSKI</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">DIOGO FERNANDO CORDEIRO CENATTI</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">GUILHERME LEMOS CARNEIRO</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">MARIANA LAURA HUAMANI</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">RAFAELLA HELOISA ROSSITO FANTINATI</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer p-0">
+                                                            <div class="row row-cols-1 row-cols-lg-2 p-0 m-0">
+                                                                <div class="col-lg-3 border-0 border-end p-0">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">Figma:</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">
+                                                                            <a class="link-underline link-underline-opacity-0" href="https://www.figma.com/design/W7CBAkJAtyjWCLLig65CkC/Prototipa%C3%A7%C3%A3o-Senac">Projeto 05</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 05 do 2º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-3 pe-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-9 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ANA JULIA PRADO PIEKARSKI</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ANA JULIA RODRIGUES</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">JULIA RAFAELA AKEMI ASSAKURA</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">LARA VITORIA ROCHA PRATES</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-cols-1 mt-3">
+                                                <div class="col d-flex justify-content-center">
+                                                    <button class="btn btn-botao">
+                                                        <a class="link-underline link-underline-opacity-0 text-white" href="">Sistema ERP</a>
+                                                    </button>
+                                                </div>
+                                                <div class="col d-flex justify-content-center">
+                                                    <p class="fw-bold badge text-wrap text-black">Acesse aqui o sistema criado por eles</p>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-acordion border-crono">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-acordion2 text-white sub-li fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                Equipe 06
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card mb-3">
+                                        <div class="row g-0">
+                                            <div class="col-md-4">
+                                                <img src="./assets/img/IMG_3105.JPEG" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 06 do 1º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-2 pe-lg-0">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-10 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">EMANOEL BINI DELGADO</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">JOÃO ELIAS RODRIGUES DA SILVEIRA</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">LARA FERREIRA GOMES RODRIGUES CABRAL</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">LORENZO JOSE LORENZETTI FERREIRA</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">RAUL CABRAL HOMEM DE GOES</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer p-0">
+                                                            <div class="row row-cols-1 row-cols-lg-2 p-0 m-0">
+                                                                <div class="col-lg-3 border-0 border-end p-0">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">Figma:</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-9">
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item border-0 m-0 bg-transparent text-center">
+                                                                            <a class="link-underline link-underline-opacity-0" href="https://www.figma.com/design/LStSeSgY4tv3SgOJ8RDbu6/Untitled">Projeto 06</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Equipe 06 do 2º ano</h5>
+                                                    <div class="card">
+                                                        <div class="row row-cols-1 row-cols-lg-2">
+                                                            <div class="col-lg-3 pe-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border border-0">Alunos:</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-9 ps-lg-0">
+                                                                <ul class="list-group mb-0">
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ALICE UBIRAJARA DA SILVA PASQUALOTTO</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">CLARA UBIRAJARA DA SILVA PASQUALOTTO</li>
+                                                                    <li class="list-group-item border-0 border-bottom border-start rounded-start-0">ISABELA BOARD RAMOS</li>
+                                                                    <li class="list-group-item border-0 border-start rounded-start-0">LUIZA ANTONIA FERREIRA SANTOS COSTA</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row-cols-1 mt-3">
+                                                <div class="col d-flex justify-content-center">
+                                                    <button class="btn btn-botao">
+                                                        <a class="link-underline link-underline-opacity-0 text-white" href="">Sistema ERP</a>
+                                                    </button>
+                                                </div>
+                                                <div class="col d-flex justify-content-center">
+                                                    <p class="fw-bold badge text-wrap text-black">Acesse aqui o sistema criado por eles</p>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5 p-0">
+                        <p class="text-white fs-5 mt-5">Todas as equipes trabalharam de forma colaborativa e comunicativa gerando a interdisciplinaridade de forma positiva. Foi criada 6 equipes do 1º ano e 6 equipes do 2º ano, totalizando 12 equipes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section data-aos="fade-up" id="Fotos" class="cronograma">
+            <div class="container pt-0 pt-lg-5 p-lg-5">
+                <div class="row border-crono rounded-2 px-1 px-lg-5">
+                    <div class="row px-0 mt-5 mb-5">
+                        <h2 class="bg-h1 display-5 text-center text-lg-start ms-2 fw-bold">Fotos</h2>
+                    </div>
+                    <div class="mb-5 mb-lg-5">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="17" aria-label="Slide 18"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/IMG_3080.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3081.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3083.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3084.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3085.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3086.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3087.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3088.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3089.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3107.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3108.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3109.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3110.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3111.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3112.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3113.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3114.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/IMG_3115.JPEG" class="d-block w-100 img" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 my-5">
+                <div class="col d-flex justify-content-center">
+                    <button class="btn btn-botao">
+                        <a class="link-underline link-underline-opacity-0 text-white display-1" href="">Simulador de um Sistema ERP</a>
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <p class="fw-bold badge text-wrap text-white display-1">Clique no botão e teste o sistema criado por eles!!!!</p>
+                </div>    
+            </div>
+        </div>
+    </footer>
+    <script src="./src/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
